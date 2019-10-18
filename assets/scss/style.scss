@@ -1099,6 +1099,20 @@ ul.social-media-area li a:hover {
   }
 }
 
+@media (max-width: 991) {
+  .order2 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .order1 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 1;
+    order: 2;
+  }
+}
+
 section.why-us-section {
   background: rgb(255, 255, 255);
   background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(248, 248, 248, 1) 30%, rgba(248, 248, 248, 1) 100%);
