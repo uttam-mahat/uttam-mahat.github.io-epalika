@@ -409,6 +409,7 @@ select {
   background: $fill-blue;
   border-color: $fill-blue;
   color: $white-color;
+  transition: all 0.2s linear;
 }
 
 .btn.btn-blue:hover,
@@ -433,6 +434,22 @@ select {
 .show>.btn-orange-peel-accent-color.dropdown-toggle {
   background: $orange-peel-accent-color;
   border-color: $orange-peel-accent-color;
+  color: $white-color;
+}
+
+.btn-primary {
+  background: $primary-color;
+  border-color: $primary-color;
+  color: $white-color;
+  transition: all 0.2s linear;
+}
+
+.btn.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  background: $primary-color;
+  border-color: $primary-color;
   color: $white-color;
 }
 
@@ -1111,6 +1128,14 @@ ul.social-media-area li a:hover {
     -ms-flex-order: 1;
     order: 2;
   }
+
+  .request-demo-content .section-heading {
+    text-align: center;
+  }
+
+  .request-demo-content .brief-text {
+    text-align: center;
+  }
 }
 
 section.why-us-section {
@@ -1128,3 +1153,142 @@ section.impact-section {
   background: linear-gradient(180deg, rgba(248, 248, 248, 1) 0%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f8f8f8", endColorstr="#ffffff", GradientType=1);
 }
+
+/* form popup modal start */
+
+.modal {
+  padding-right: 0 !important;
+}
+
+.modal-dialog.modal-lg {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.modal-content {
+  border-radius: 0;
+  border: 0;
+  position: relative;
+}
+
+.modal-content::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  background: url(../assets/img/pattern-3.png) #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.2;
+}
+
+.modal-body {
+  padding-bottom: 40px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.modal-title {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.modal-header {
+  border: 0
+}
+
+.modal-header .close {
+  font-size: 42px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form-header h1 {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  color: $dark-color;
+}
+
+.form-header span {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.disclamer {
+  font-size: 12px;
+  font-style: italic;
+  color: $danger-color;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+form label {
+  font-size: 14px;
+  color: $dark-color;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+}
+
+.form-section-heading {
+  font-size: 14px;
+  font-weight: 400;
+  color: $dark-secondary-color;
+}
+
+.infoWrapper ul {
+  margin-left: 24px;
+}
+
+.infoWrapper ul li {
+  list-style-type: disc;
+  font-size: 14px;
+  color: $dark-color;
+}
+
+form input,
+form textarea,
+form .form-control {
+  font-size: 14px;
+}
+
+.blurb {
+  font-size: 14px;
+  color: $dark-secondary-color;
+}
+
+.need-more-text {
+  font-size: 14px;
+}
+
+.need-more-text span {
+  color: $dark-color;
+  display: block;
+}
+
+.modal-body footer .copyright-text {
+  color: $dark-secondary-color;
+}
+
+.modal-body footer .copyright-text a {
+  color: $dark-secondary-color;
+}
+
+.modal-body footer .copyright-text a:hover {
+  color: $primary-color;
+}
+
+/* form popup modal close */
