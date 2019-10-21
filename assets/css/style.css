@@ -1241,7 +1241,8 @@ form label {
 form input,
 form textarea,
 form .form-control {
-  font-size: 14px; }
+  font-size: 14px;
+  margin-bottom: 6px; }
 
 .blurb {
   font-size: 14px;
