@@ -553,7 +553,7 @@ button.btn.btn-transparent {
 
 .intro-bg {
   position: absolute;
-  width: 80vw;
+  width: 84vw;
   height: 100%;
   top: 0;
   left: 0;
@@ -586,13 +586,14 @@ section {
   color: $dark-color;
 }
 
+.section-content-img {
+  margin: 14px 0;
+  text-align: center;
+}
+
 .section-content-img img {
   width: 430px;
   overflow: hidden;
-}
-
-.section-content-img {
-  margin: 14px 0;
 }
 
 /* intro-section start */
