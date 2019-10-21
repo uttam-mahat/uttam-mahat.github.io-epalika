@@ -1029,16 +1029,6 @@ ul.social-media-area li a:hover {
     white-space: nowrap; } }
 
 /* ellipsis close */
-@media (max-width: 575.98px) {
-  .form-header h1 {
-    font-size: 28px; }
-  .form-header span {
-    font-size: 12px; }
-  .section-title label {
-    font-size: 20px; }
-  .section-title {
-    font-size: 30px; } }
-
 #fill-circle-wrapper {
   -webkit-animation: translate-up 4s ease 0.8s infinite alternate both;
   animation: translate-up 4s ease 0.8s infinite alternate both;
@@ -1274,3 +1264,12 @@ form .form-control {
   color: #6C63FF; }
 
 /* form popup modal close */
+@media (max-width: 575.98px) {
+  .form-header h1 {
+    font-size: 28px; }
+  .form-header span {
+    font-size: 12px; }
+  .section-title label {
+    font-size: 20px; }
+  .section-title {
+    font-size: 30px; } }

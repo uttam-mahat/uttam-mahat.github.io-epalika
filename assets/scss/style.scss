@@ -1033,26 +1033,6 @@ ul.social-media-area li a:hover {
 
 /* ellipsis close */
 
-@media (max-width: 575.98px) {
-
-  .form-header h1 {
-    font-size: 28px;
-  }
-
-  .form-header span {
-    font-size: 12px;
-  }
-
-  .section-title label {
-    font-size: 20px;
-  }
-
-  .section-title {
-    font-size: 30px;
-  }
-
-}
-
 #fill-circle-wrapper {
   animation: translate-up 4s ease 0.8s infinite alternate both;
   transform: translate(120px, 120px) rotate(160deg);
@@ -1302,3 +1282,22 @@ form .form-control {
 }
 
 /* form popup modal close */
+@media (max-width: 575.98px) {
+
+  .form-header h1 {
+    font-size: 28px;
+  }
+
+  .form-header span {
+    font-size: 12px;
+  }
+
+  .section-title label {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+}
