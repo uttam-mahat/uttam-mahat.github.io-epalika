@@ -1237,6 +1237,9 @@ form label {
   font-weight: 400;
   color: #707070; }
 
+.infoWrapper .section-heading {
+  color: #6C63FF; }
+
 .infoWrapper ul {
   margin-left: 24px; }
 
