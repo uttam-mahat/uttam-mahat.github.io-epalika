@@ -1115,6 +1115,11 @@ ul.social-media-area li a:hover {
   .intro-bg {
     display: none;
   }
+
+  .why-us-section .section-content-img img,
+  .feature-section .section-content-img img {
+    width: 280px;
+  }
 }
 
 @media (max-width: 991px) {
