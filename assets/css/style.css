@@ -1276,6 +1276,10 @@ form .form-control {
     font-size: 30px; } }
 
 /* light mode */
+@media (prefers-color-scheme: light) {
+  nav.navbar.sticky {
+    background: #eee; } }
+
 /* dark mode */
 @media (prefers-color-scheme: dark) {
   body {
