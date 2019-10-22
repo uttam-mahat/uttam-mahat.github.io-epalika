@@ -1278,7 +1278,7 @@ form .form-control {
 /* light mode */
 @media (prefers-color-scheme: light) {
   nav.navbar.sticky {
-    background: #eee; } }
+    background: #fafafa; } }
 
 /* dark mode */
 @media (prefers-color-scheme: dark) {
