@@ -1274,3 +1274,50 @@ form .form-control {
     font-size: 20px; }
   .section-title {
     font-size: 30px; } }
+
+/* light mode */
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1c1c1e;
+    color: #fefefe; }
+  button span.line {
+    background: #eee; }
+  ul.navbar-nav .nav-item .nav-link {
+    color: #eee; }
+  ul.navbar-nav .nav-item.active .nav-link {
+    color: #5fa9ee; }
+  .caption-text {
+    color: #eee; }
+  .btn-orange-peel-accent-color {
+    background: #1c1c1e;
+    color: #fefefe; }
+  .iconbox .list-content .list-heading {
+    color: #fefefe; }
+  .iconbox .list-content .list-brief-text {
+    color: #eee; }
+  .iconbox .list-icon {
+    background: #222;
+    color: #fefefe; }
+  section.why-us-section {
+    background: #1c1c1e; }
+  section.impact-section {
+    background: #1c1c1e; }
+  .icon-wrapper {
+    background: #222;
+    color: #fefefe; }
+  .impact-number {
+    color: #fefefe; }
+  .item-title {
+    color: #eee; }
+  button.btn.btn-white {
+    background: #1c1c1e;
+    color: #fefefe; }
+  .request-demo-content .section-heading {
+    color: #fefefe; }
+  .request-demo-content .brief-text {
+    color: #eee; }
+  .section-heading {
+    color: #fefefe; }
+  a {
+    color: #5fa9ee; } }
